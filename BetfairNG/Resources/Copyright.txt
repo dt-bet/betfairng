@@ -1,0 +1,4 @@
+# Lignite Betting Engine
+# Version 1.0.0
+# 2008-08-26
+# Copyright© 2008 Carel Vosloo

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BetfairNG {
+namespace BetfairNG.Resources {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace BetfairNG {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("BetfairNG.Resource1", typeof(Resource1).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("BetfairNG.Resources.Resource1", typeof(Resource1).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -57,6 +57,41 @@ namespace BetfairNG {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Id,eventType_id,eventType_Name
+        ///1,27454571,Esports
+        ///2,7,Horse Racing
+        ///3,3503,Darts
+        ///4,1,Soccer
+        ///5,7524,Ice Hockey
+        ///6,2378961,Politics
+        ///7,10,Special Bets
+        ///8,5,Rugby Union
+        ///9,7511,Baseball
+        ///10,6423,American Football
+        ///11,7522,Basketball
+        ///12,61420,Australian Rules
+        ///13,2,Tennis
+        ///14,998917,Volleyball
+        ///15,3,Golf
+        ///16,4,Cricket
+        ///17,11,Cycling
+        ///18,6,Boxing
+        ///19,1477,Rugby League
+        ///20,8,Motor Sport
+        ///21,2152880,Gaelic Games
+        ///22,6422,Snooker
+        ///23,4339,Greyhound Racing
+        ///24,28361978,Lottery Specials
+        ///25,3988,Athletics
+        ///26,26 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string EventTypes {
+            get {
+                return ResourceManager.GetString("EventTypes", resourceCulture);
             }
         }
         

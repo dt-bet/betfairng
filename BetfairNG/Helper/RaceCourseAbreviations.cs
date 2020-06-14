@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BetfairNG.Resources;
+using System;
 using System.Collections;
 
 namespace BetfairNG.Helper

@@ -60,7 +60,7 @@ namespace BetfairNG
         public T Result { get; set; }
 
         [JsonProperty(PropertyName = "error", NullValueHandling = NullValueHandling.Ignore)]
-        public Data.Exceptions.Exception Error { get; set; }
+        public API.Exceptions.Exception Error { get; set; }
 
         [JsonProperty(PropertyName = "id")]
         public object Id { get; set; }
